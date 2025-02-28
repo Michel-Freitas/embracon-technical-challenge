@@ -1,5 +1,11 @@
 # embracon-technical-challenge
 
+# Objetivo:
+- [X] Implementar front-end para que o usuário possa informar o cep para busca
+- [X] Implementar front-end para que o usuário possa listar os logs filtrando por UF
+- [X] Consultar CEP na api `https://viacep.com.br/ws/:cep/json`
+- [X] Salvar no banco de dados o log de toda consulta de cep feita
+
 # Front-End
 - Configuração:
   - Precisa ser criado um arquivo .env na raiz com a variavel `VITE_API_URL`
