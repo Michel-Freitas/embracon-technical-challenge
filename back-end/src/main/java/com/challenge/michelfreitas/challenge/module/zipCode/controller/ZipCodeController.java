@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("zipcode")
+@CrossOrigin(origins = "*")
 public class ZipCodeController {
 
     @Autowired
